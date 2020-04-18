@@ -1,2 +1,2 @@
-# Simple Producer and Cosumer for Apache kafka based on Spring Boot
+# Simple Producer and Consumer for Apache kafka
 Learning Apache Kafka on Spring Boot
