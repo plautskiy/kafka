@@ -36,6 +36,7 @@ services:
 
   kafka-producer:
     container_name: kafka-producer
+    image: plautskiy/kafka-producer
     build:
       context: producer
       dockerfile: src/main/docker/Dockerfile
@@ -48,6 +49,7 @@ services:
 
   kafka-consumer:
     container_name: kafka-consumer
+    image: plautskiy/kafka-consumer
     build:
       context: consumer
       dockerfile: src/main/docker/Dockerfile
